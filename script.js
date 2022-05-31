@@ -1,7 +1,6 @@
 const inputTexto = document.querySelector(".textarea-izq");
 
 const mensaje = document.querySelector(".textarea-der");
-//mensaje.onclick = document.getElementById("rectan").style.display = "none";
 
 function btnEncriptar(){
     const textoEncriptado = encriptar(inputTexto.value);
